@@ -1,0 +1,14 @@
+*.pyc
+*.swp
+.coverage
+.DS_Store
+.idea/
+.tox/
+.cache/
+credentials/
+dist/
+log_files/
+locks/
+LogFeeder.egg-info/
+virtualenv_run/
+venv*/
