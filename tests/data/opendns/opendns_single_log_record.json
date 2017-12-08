@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2015-08-17 23:52:31",
+    "most_granular_identity": "COMPUTER_NAME_001",
+    "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+    "internal_ip": "123.156.178.101",
+    "external_ip": "123.156.178.101",
+    "action": "Allowed",
+    "query_type": "16 (TXT)",
+    "response_code": "NOERROR",
+    "domain": "yelp.com.",
+    "categories": "Test"
+  }
+]

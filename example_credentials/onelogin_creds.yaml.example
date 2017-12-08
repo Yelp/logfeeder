@@ -1,0 +1,5 @@
+# Do not commit your production configurations to publicly visible repositories.
+# onelogin_feeder credentials file
+#     api_key: onelogin api key.
+
+api_key: {YOUR_API_KEY_HERE}

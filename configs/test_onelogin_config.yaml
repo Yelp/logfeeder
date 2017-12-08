@@ -1,0 +1,5 @@
+# onelogin_feeder specific configurations values:
+# api_creds_filepath: path to the onelogin creds, relative to the main logfeeder directory. A onelogin creds file is expected to contain:
+#     api_key: onelogin api key.
+
+api_creds_filepath: credentials/test_onelogin_creds.yaml

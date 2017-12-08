@@ -1,0 +1,17 @@
+# duo_feeder specific configurations values:
+# api_creds_filepath: path to the duo creds, relative to the main logfeeder directory. A duo creds file is expected to contain:
+#    integration_key - duo integration key
+#    secret_key - duo secret key
+#    api_hostname - duo endpoint hostname (e.g. api-1234567.duosecurity.com)
+# enable_admin: boolean for whether to pull admin logs
+# enable_auth: boolean for whether to pull auth logs
+# enable_tele: boolean for whether to pull telephone logs
+# rate_limiter_num_calls_per_timeunit: integer equal to the number of calls per timeunit accepted by the Duo API
+# rate_limiter_num_seconds_per_timeunit: integer equal to the number of seconds per timeunit for the Duo API
+
+api_creds_filepath: credentials/test_duo_creds.yaml
+enable_admin: True
+enable_auth: True
+enable_tele: True
+rate_limiter_num_calls_per_timeunit: 1
+rate_limiter_num_seconds_per_timeunit: 30

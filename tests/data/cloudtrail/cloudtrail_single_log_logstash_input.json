@@ -1,0 +1,37 @@
+[
+  {
+    "org_username": "barbie",
+    "logfeeder_type": "cloudtrail",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-06-22T15:11:37+00:00",
+    "cloudtrail_data": {
+      "eventVersion": "1.02",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AADDBBSS29910011",
+        "arn": "arn:aws:iam::353245345345:user/barbie",
+        "accountId": "65476574674",
+        "userName": "barbie"
+      },
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "123.156.178.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/sqs/home?region=us-west-2&state=hashArgs%23queue-browser%3Aselected%3Dhttps%3A%2F%2Fsqs.us-west-2.amazonaws.com%2FID01010101BIN-ID%2Fcloudtrail-logs%3Bprefix%3D&isauthcode=true",
+        "MobileVersion": "No",
+        "MFAUsed": "Yes"
+      },
+      "eventID": "4d950112-d0c1-4eb3-95e9-a21e25b5d033",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "34534535423"
+    }
+  }
+]

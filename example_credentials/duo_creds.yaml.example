@@ -1,0 +1,9 @@
+# Do not commit your production configurations to publicly visible repositories.
+# duo_feeder credentials file
+#    integration_key - duo integration key
+#    secret_key - duo secret key
+#    api_hostname - duo endpoint hostname (e.g. api-1234567.duosecurity.com)
+
+integration_key: {YOUR_INTEGRATION_KEY_HERE}
+secret_key: {YOUR_SECRET_KEY_HERE}
+api_hostname: api-1234.duosecurity.com

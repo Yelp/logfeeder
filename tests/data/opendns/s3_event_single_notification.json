@@ -1,0 +1,5 @@
+[
+  {
+    "Message": "{ \"Records\": [ { \"eventVersion\": \"2.0\", \"eventSource\": \"aws:s3\", \"awsRegion\": \"us-west-2\", \"eventTime\": \"2015-06-22T15:30:36.617Z\", \"eventName\": \"ObjectCreated:Put\", \"userIdentity\": { \"principalId\": \"AWS:AROAI55D34KU2GUZPLP4Y:i-da377c2d\" }, \"requestParameters\": { \"sourceIPAddress\": \"192.122.6.12\" }, \"responseElements\": { \"x-amz-request-id\": \"55DB5CB3FDEEEF16\", \"x-amz-id-2\": \"xIzAXXx4gFoz9VUQq/46optDLnR2cXzqcGAxNrof0Qh1rWKYXcsRhdRcnzSaWnnc7d6zjIsma+M=\" }, \"s3\": { \"s3SchemaVersion\": \"1.0\", \"configurationId\": \"728dfcb7-b2cc-4400-a4d7-7bd56816d861\", \"bucket\": { \"name\": \"bucket_store\", \"ownerIdentity\": { \"principalId\": \"0101-00-83883883-ID\" }, \"arn\": \"arn:aws:s3:::bucket_store\" }, \"object\": { \"key\": \"opendns/bucket_logs_storage_10-00-00-01/235234234/the_action_logs/us-west-2/2015/06/22/235234234_the_action_logs_us-west-2_20150622T1530Z_OEDcBw5WTM85PuFU.json.gz\", \"size\": 656, \"eTag\": \"c5d4c43b889470f3796f8670d8118397\" } } } ] }"
+  }
+]

@@ -1,0 +1,25 @@
+# == Test service configuration ==
+
+# logfeeder: contains the configuration settings used by all subclasses of logfeeder.
+#    aws_config_filepath: full path to a file containing aws credentials. This aws file is expected to contain:
+#       region_name: name of the aws region (e.g. eu-north-2)
+#       queue_name: name of the SQS queue to send API records to
+#       aws_access_key_id: aws access key id
+#       aws_secret_access_key: aws secret access key
+#    domain: domain name of organization that the api records are for (e.g. yelp.com)
+
+logfeeder:
+  aws_config_filepath: /opt/install/log_feeder/credentials/aws_info.yaml
+  domain: example.org
+
+# App specific configuration files.
+# Each entry below should be the APP_NAME as the app (as specified in the source code for each subclass), followed by
+# a single "file" entry.
+#    file: full path to the app specific configuration file. Each app specific configuration file should have at a
+#    minimum a "api_creds_filepath" entry which indicates a path to the app's credential file, relative to the main logfeeder directory
+
+duo:
+  file: /opt/log_feeder/configs/test_duo_config.yaml
+
+onelogin:
+  file: /opt/log_feeder/configs/test_onelogin_config.yaml

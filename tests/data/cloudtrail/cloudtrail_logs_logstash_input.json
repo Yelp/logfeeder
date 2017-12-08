@@ -1,0 +1,150 @@
+[
+  {
+    "org_username": "ken",
+    "logfeeder_type": "cloudtrail",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-06-22T15:26:47+00:00",
+    "cloudtrail_data": {
+      "eventVersion": "1.02",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AADDBBSS29910011",
+        "arn": "arn:aws:iam::88281001-ID:user/ken",
+        "accountId": "88281001-ID",
+        "accessKeyId": "FCDSDDSA87928374",
+        "userName": "ken",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2015-06-22T15:11:37Z"
+          }
+        },
+        "invokedBy": "signin.amazonaws.com"
+      },
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListAccessKeys",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.122.16.86",
+      "userAgent": "signin.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "18bbd368-18f3-11e5-932d-5deff168c151",
+      "eventID": "95e5b715-e177-41e0-8908-10994d44e367",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "88281001-ID"
+    }
+  },
+  {
+    "org_username": "ken",
+    "logfeeder_type": "cloudtrail",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-06-22T15:26:47+00:00",
+    "cloudtrail_data": {
+      "eventVersion": "1.02",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AADDBBSS29910011",
+        "arn": "arn:aws:iam::88281001-ID:user/ken",
+        "accountId": "88281001-ID",
+        "accessKeyId": "FCDSDDSA87928374",
+        "userName": "ken",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2015-06-22T15:11:37Z"
+          }
+        },
+        "invokedBy": "signin.amazonaws.com"
+      },
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ListAccountAliases",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.122.16.86",
+      "userAgent": "signin.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "18b9b087-18f3-11e5-932d-5deff168c151",
+      "eventID": "77b84660-339c-4fdd-8258-7f94f20993d4",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "88281001-ID"
+    }
+  },
+  {
+    "org_username": "ken",
+    "logfeeder_type": "cloudtrail",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-06-22T15:26:47+00:00",
+    "cloudtrail_data": {
+      "eventVersion": "1.02",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AADDBBSS29910011",
+        "arn": "arn:aws:iam::88281001-ID:user/ken",
+        "accountId": "88281001-ID",
+        "accessKeyId": "FCDSDDSA87928374",
+        "userName": "ken",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2015-06-22T15:11:37Z"
+          }
+        },
+        "invokedBy": "signin.amazonaws.com"
+      },
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetAccountSummary",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.122.16.86",
+      "userAgent": "signin.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "18acb834-18f3-11e5-932d-5deff168c151",
+      "eventID": "5a5a9150-d36d-43da-b3e6-b7e255bd1bae",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "88281001-ID"
+    }
+  },
+  {
+    "org_username": "ken",
+    "logfeeder_type": "cloudtrail",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-06-22T15:26:47+00:00",
+    "cloudtrail_data": {
+      "eventVersion": "1.02",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AADDBBSS29910011",
+        "arn": "arn:aws:iam::88281001-ID:user/ken",
+        "accountId": "88281001-ID",
+        "accessKeyId": "FCDSDDSA87928374",
+        "userName": "ken",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2015-06-22T15:11:37Z"
+          }
+        },
+        "invokedBy": "signin.amazonaws.com"
+      },
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "GetAccountPasswordPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.122.16.86",
+      "userAgent": "signin.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "18b73f86-18f3-11e5-932d-5deff168c151",
+      "eventID": "97879bed-0bbd-4ca8-a323-b52ef3320add",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "88281001-ID"
+    }
+  }
+]

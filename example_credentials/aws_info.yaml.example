@@ -1,0 +1,11 @@
+# Do not commit your production configurations to publicly visible repositories.
+# aws credentials file
+#    region_name: name of the aws region (e.g. us-west-2)
+#    queue_name: name of the SQS queue to send API records to
+#    aws_access_key_id: aws access key id
+#    aws_secret_access_key: aws secret access key
+
+region_name: us-west-2
+queue_name: {QUEUE_NAME}
+aws_access_key_id: {YOUR_ACCESS_KEY_ID_HERE}
+aws_secret_access_key: {YOUR_SECRET_ACCESS_KEY_HERE}

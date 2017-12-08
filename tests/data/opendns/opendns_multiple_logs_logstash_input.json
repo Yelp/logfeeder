@@ -1,0 +1,92 @@
+[
+  {
+    "logfeeder_type": "opendns",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-08-17T23:51:05+00:00",
+    "opendns_data": {
+      "most_granular_identity": "COMPUTER_NAME_001",
+      "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+      "internal_ip": "123.156.178.101",
+      "external_ip": "123.156.178.101",
+      "action": "Allowed",
+      "query_type": "28 (AAAA)",
+      "response_code": "NOERROR",
+      "domain": "s0-2mdn-net.l.microsoft.com.",
+      "categories": "Search Engines"
+    }
+  },
+  {
+    "logfeeder_type": "opendns",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-08-17T23:51:05+00:00",
+    "opendns_data": {
+      "most_granular_identity": "COMPUTER_NAME_001",
+      "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+      "internal_ip": "123.156.178.101",
+      "external_ip": "123.156.178.101",
+      "action": "Allowed",
+      "query_type": "28 (AAAA)",
+      "response_code": "NOERROR",
+      "domain": "t.mookie1.com.",
+      "categories": "Business Services"
+    }
+  },
+  {
+    "logfeeder_type": "opendns",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-08-17T23:51:06+00:00",
+    "opendns_data": {
+      "most_granular_identity": "COMPUTER_NAME_001",
+      "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+      "internal_ip": "123.156.178.101",
+      "external_ip": "123.156.178.101",
+      "action": "Allowed",
+      "query_type": "28 (AAAA)",
+      "response_code": "NOERROR",
+      "domain": "pagead2.microsoftsyndication.com.",
+      "categories": ""
+    }
+  },
+  {
+    "logfeeder_type": "opendns",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-08-17T23:51:07+00:00",
+    "opendns_data": {
+      "most_granular_identity": "COMPUTER_NAME_001",
+      "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+      "internal_ip": "123.156.178.101",
+      "external_ip": "123.156.178.101",
+      "action": "Allowed",
+      "query_type": "1 (A)",
+      "response_code": "NOERROR",
+      "domain": "www.gstatic.com.",
+      "categories": ""
+    }
+  },
+  {
+    "logfeeder_type": "opendns",
+    "logfeeder_subapi": "dummy sub-API",
+    "logfeeder_account": "logfeeder.example.com",
+    "logfeeder_instance": "yellow",
+    "event_time": "2015-08-17T23:51:44+00:00",
+    "opendns_data": {
+      "most_granular_identity": "COMPUTER_NAME_001",
+      "identities": "COMPUTER_NAME_001,new Oslo office (2012-02-14)",
+      "internal_ip": "123.156.178.101",
+      "external_ip": "123.156.178.101",
+      "action": "Allowed",
+      "query_type": "1 (A)",
+      "response_code": "NOERROR",
+      "domain": "www.microsoft.com.",
+      "categories": "Search Engines"
+    }
+  }
+]
