@@ -50,14 +50,14 @@ Follow these steps to run logfeeder:
 
 * Clone the Git repository
 * Obtain credentials to the service you intend to ingest logs for.
-** For the proper format of these credentials files, see example files in the `log_feeder/example_credentials` directory.
-** Place these credentials in the `log_feeder/credentials` directory and set the application configuration file (e.g. `log_feeder/configs/duo_config.yaml`) to point to this credentials file.
+  * For the proper format of these credentials files, see example files in the `log_feeder/example_credentials` directory.
+  * Place these credentials in the `log_feeder/credentials` directory and set the application configuration file (e.g. `log_feeder/configs/duo_config.yaml`) to point to this credentials file.
 
-* Tips for running LogFeeder:
-** To see command-line options, run: `$ python -m log_feeder.duo_feeder -h`
-** Check out the files in `log_feeder/configs` for configuration options
-** If you change the LogFeeder source code, make sure all the tests pass: $ make test
-** LogFeeder by default starts its query at the latest timestamp of its last run. Logfeeder will generate duplicate
+### Tips for running LogFeeder
+* To see command-line options, run: `$ python -m log_feeder.duo_feeder -h`
+* Check out the files in `log_feeder/configs` for configuration options
+* If you change the LogFeeder source code, make sure all the tests pass: $ make test
+* LogFeeder by default starts its query at the latest timestamp of its last run. Logfeeder will generate duplicate
 entries and expects the output system (e.g. ElasticSearch/SQS) to deal with them.
 
 ## Development Environment
