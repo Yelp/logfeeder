@@ -7,6 +7,6 @@ pytz==2014.10
 PyYAML==3.11
 requests[security]==2.12.4
 simplejson==3.10.0
-urllib3==1.10.3
+urllib3==1.26.5
 PyStaticConfiguration
 pycurl==7.19.0.2
